@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const ImageGallery = () => {
-  const [images, setImages] = useState([]);
+  const [images] = useState([]);
 
   return (
     <section className="p-6 bg-gray-50 dark:bg-gray-900">
